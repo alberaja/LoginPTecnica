@@ -1,0 +1,91 @@
+
+body {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:14px;
+  line-height: 24px;
+  /*color: #666;  '#666 '*/
+  background-color: #2c4f8c;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #333;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+label{
+    width:100px;
+    font-size:12px;
+    color: black;
+}
+.box {
+            border:#c0c0c0 solid 1px;
+            border-radius: 2px;
+            background: url(../img/Requerido1.png); 
+            background-position:  358px 0px; 
+            background-repeat: no-repeat; 
+            padding:9px 10px 9px ; 
+            width: 380px; 
+            margin-bottom: 11px;
+}
+
+.rectangle{
+    height: 480px; 
+    width:500px;
+    position: absolute; 
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: white;
+}
+
+.hrectangle{
+    background-color:#ff3333; 
+    color:#FFFFFF; 
+    padding:30px; 
+    text-align: -moz-center; 
+    font-family: calibri; 
+    font-size: 30px; 
+    margin-bottom: -8px;
+}
+
+.brectangle{
+    margin:50px auto auto 57px;
+}
+
+.frectangle{
+    background-color: #e7e7e9; 
+    color:black; 
+    padding-top: 13px; 
+    padding-bottom: 11px;
+    font-family: calibri;  
+    font-size: 12px;
+}
+
+.frectangle:hover{
+    cursor: pointer;
+}
+.sendfrm{
+    height: 44px; 
+    background-color: #ff3333; 
+    border-radius: 2px; 
+    color: white; 
+    width: 123px; 
+    float: right; 
+    border: solid 1px #333333; 
+    font-family: calibri; 
+    font-size: 20px; 
+    margin-right:65px;
+    margin-top: 15px;
+}
+.sendfrm:hover{
+    background-color: #f63300;
+    cursor: pointer;
+}
